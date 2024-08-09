@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- All Rights Reserved, Copyright(c) Fujitsu Learning Media Limited -->
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Product Detail</title>
+<link rel="stylesheet" type="text/css" href="/freemarkn/css/style.css">
+<style>
+input.ex3{
+  margin-left: 45px;
+</style>
+
+
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th{
+  background-color: #9999ff;
+  border: 1px solid;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid;
+  text-align: left;
+  padding: 8px;
+}
+
+.CartPos {
+    margin-top: -35px; /* change default value */
+    margin-left: 770px; /* change default value */
+    display: block;
+}
+</style>
+</head>
+
+<body>
+<jsp:include page="/jsp/header-non-menu.jsp" />
+
+<a href="" class = "CartPos">
+<img src="../img/Cart.png" alt="Cart" width="20">
+</a>
+
+<div id="mainArea">
+<h1>PRODUCT DETAIL INQUIRY</h1><br>
+<%-- contents start --%>
+
+		<table>
+		  <tr>
+		    <th>Product Image</th>
+		    <th>Product ID</th>
+		    <th>Product Category</th>
+		    <th>Product Name</th>
+		    <th>Price</th>
+		    <th>Inventory</th>
+		    <th>Add to Cart</th>
+		  </tr>
+		  <tr>
+			<td><img src="../img_DB/a01.gif"></td>
+		    <td>a01</td>
+		    <td>Sports Shoes</td>
+		    <td>ALL STAR one</td>
+		    <td>15000</td>
+		    <td>100</td>
+		    <td><button type="button">Add to Cart</button></td>
+		  </tr>
+		</table>
+
+
+<br>
+<br>
+<a href="../jsp/product-search-result-view.jsp">[Back to Previous Screen]</a>
+<%-- contents end --%>
+</div>
+<div id="footerArea">
+<small>Copyright YYYY FUJITSU LEARNING MEDIA LIMITED</small>
+</div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+a img{
+	border-style:none;
+}
+
+body{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+}
+
+a.header{
+	padding:5px;
+	color:#ffffff;
+	font-size: 25px;
+
+}
+
+#mainArea h1{
+	font-size:1.5em;
+	margin:10px;
+	border-bottom:3px solid #0099ff;
+	text-align:left;
+	clear: both;
+}
+
+#mainArea table{
+	margin-left:auto;
+	margin-right:auto;
+	border-collapse: collapse;
+}
+
+#mainArea th{
+	background-color:#9999ff;
+	padding:5px;
+}
+
+#mainArea td{
+	padding:5px;
+}
+
+#headerArea{
+	background-color:#003399;
+	color:#ffffff;
+	height:90px;
+}
+
+#mainArea{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#footerArea{
+	margin-top:3px;
+	border-top:1px solid #0099cc;
+	text-align:right;
+}
+
+a.LogPos {
+	    margin-top: -45px; /* change default value */
+    margin-left: 200px; /* change default value */
+    color: 	#FFFFFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: block;
+}
+a.MemberInfo {
+	margin-top: 10px; /* change default value */
+    margin-left: 200px; /* change default value */
+    color: 	#FFFFFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: block;
+}
+
+a.CartPos {
+    margin-top: 00px; /* change default value */
+    margin-left: 325px; /* change default value */
+    color: 	#FFFFFF;
+    text-decoration: none;
+    display: block;
+}
+.btn {
+     display: block;
+    width: 80px;
+    height: 20px;
+    background: #EFEFEF;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: #100f0f;
+    line-height: 25px;
+    text-decoration: none;
+}
+b.blink {
+            animation: blinker s linear infinite;
+            color: red;
+            font-family: sans-serif;
+        }
+.Link {
+clip-path: inset(100%);
+   clip: rect(1px, 1px, 1px, 1px);
+   height: 1px;
+   overflow: hidden;
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+}
+
